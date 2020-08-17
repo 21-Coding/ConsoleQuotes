@@ -686,23 +686,23 @@
     ]
   },
   "packageFolders": {
-    "/Users/dominiqueyoumans/.nuget/packages/": {},
+    "/Users/dom/.nuget/packages/": {},
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dominiqueyoumans/Desktop/NipseyQuotes-branching-/myApp.csproj",
+      "projectUniqueName": "/Users/dom/Desktop/ConsoleQuotes/myApp.csproj",
       "projectName": "myApp",
-      "projectPath": "/Users/dominiqueyoumans/Desktop/NipseyQuotes-branching-/myApp.csproj",
-      "packagesPath": "/Users/dominiqueyoumans/.nuget/packages/",
-      "outputPath": "/Users/dominiqueyoumans/Desktop/NipseyQuotes-branching-/obj/",
+      "projectPath": "/Users/dom/Desktop/ConsoleQuotes/myApp.csproj",
+      "packagesPath": "/Users/dom/.nuget/packages/",
+      "outputPath": "/Users/dom/Desktop/ConsoleQuotes/obj/",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/dominiqueyoumans/.nuget/NuGet/NuGet.Config"
+        "/Users/dom/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.2"
@@ -732,10 +732,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.401/RuntimeIdentifierGraph.json"
       }
     }
   }

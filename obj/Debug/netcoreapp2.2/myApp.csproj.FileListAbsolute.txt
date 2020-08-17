@@ -31,3 +31,15 @@
 /Users/dominiqueyoumans/Desktop/NipseyQuotes-branching-/obj/Debug/netcoreapp2.2/myApp.AssemblyInfo.cs
 /Users/dominiqueyoumans/Desktop/NipseyQuotes-branching-/obj/Debug/netcoreapp2.2/myApp.dll
 /Users/dominiqueyoumans/Desktop/NipseyQuotes-branching-/obj/Debug/netcoreapp2.2/myApp.pdb
+/Users/dom/Desktop/ConsoleQuotes/bin/Debug/netcoreapp2.2/myApp.deps.json
+/Users/dom/Desktop/ConsoleQuotes/bin/Debug/netcoreapp2.2/myApp.runtimeconfig.json
+/Users/dom/Desktop/ConsoleQuotes/bin/Debug/netcoreapp2.2/myApp.runtimeconfig.dev.json
+/Users/dom/Desktop/ConsoleQuotes/bin/Debug/netcoreapp2.2/myApp.dll
+/Users/dom/Desktop/ConsoleQuotes/bin/Debug/netcoreapp2.2/myApp.pdb
+/Users/dom/Desktop/ConsoleQuotes/obj/Debug/netcoreapp2.2/myApp.csprojAssemblyReference.cache
+/Users/dom/Desktop/ConsoleQuotes/obj/Debug/netcoreapp2.2/myApp.AssemblyInfoInputs.cache
+/Users/dom/Desktop/ConsoleQuotes/obj/Debug/netcoreapp2.2/myApp.AssemblyInfo.cs
+/Users/dom/Desktop/ConsoleQuotes/obj/Debug/netcoreapp2.2/myApp.csproj.CoreCompileInputs.cache
+/Users/dom/Desktop/ConsoleQuotes/obj/Debug/netcoreapp2.2/myApp.dll
+/Users/dom/Desktop/ConsoleQuotes/obj/Debug/netcoreapp2.2/myApp.pdb
+/Users/dom/Desktop/ConsoleQuotes/obj/Debug/netcoreapp2.2/myApp.genruntimeconfig.cache
