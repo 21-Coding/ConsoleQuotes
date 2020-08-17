@@ -1,4 +1,4 @@
-# NipseyQuotes
+# ConsoleQuotes
 
 ## By **Dominique Youmans**
 
