@@ -8,12 +8,18 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle quotes please type a number from 1 - 15!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle quotes please type a number from 1 - 16!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
        
          
-          if (intUserNumber == 15)
+      if (intUserNumber == 16)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.BackgroundColor = ConsoleColor.DarkGray;
+        TypeLine("A speaker of truth has no friends.");
+      }
+      else if (intUserNumber == 15)
       {
         Console.ForegroundColor = ConsoleColor.Black;
         Console.BackgroundColor = ConsoleColor.Red;
