@@ -8,16 +8,48 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle quotes please type a number from 1 - 10!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle quotes please type a number from 1 - 15!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
-
-      if (intUserNumber == 10)
+       
+         
+          if (intUserNumber == 15)
+      {
+        Console.ForegroundColor = ConsoleColor.Black;
+        Console.BackgroundColor = ConsoleColor.Red;
+        TypeLine("If you look at the people in your circle and you dont get inspired, then you dont have a circle you have a cage.");
+      }
+      else if (intUserNumber == 14)
+      {
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.BackgroundColor = ConsoleColor.DarkGray;
+        TypeLine("The reason children accept discipline from their parents is because they know their parents love them.");
+      }
+      else if (intUserNumber == 13)
+      {
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.BackgroundColor = ConsoleColor.DarkGray;
+        TypeLine("Even as you make progress, you need the discipline to keep from backtracking and sabotaging the success as its happening.");
+      }
+      else if (intUserNumber == 12)
+      {
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.BackgroundColor = ConsoleColor.DarkGray;
+        TypeLine("Ownership is everything, own your mind - mind your own.");
+      }
+      else if (intUserNumber == 11)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
+        Console.BackgroundColor = ConsoleColor.White;
+        TypeLine("Luck is just being prepared at all times, so when the door opens you are ready.");
+      }
+      else if (intUserNumber == 10)
+      {
+        Console.ForegroundColor = ConsoleColor.Green;
         Console.BackgroundColor = ConsoleColor.DarkGray;
         TypeLine("The company you keep has a large influence on the situations you bring to yourself. Birds of a feather flock together.");
-      } else if (intUserNumber == 9)
+      }
+      else if (intUserNumber == 9)
       {
         Console.ForegroundColor = ConsoleColor.Red;
         Console.BackgroundColor = ConsoleColor.White;
