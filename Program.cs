@@ -8,7 +8,7 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle quotes please type a number from 1 - 16!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle quotes please type a number from 1 - 20!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
