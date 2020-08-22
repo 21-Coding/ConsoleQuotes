@@ -16,7 +16,7 @@ namespace myApp
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.BackgroundColor = ConsoleColor.DarkGray;
-        TypeLine(".");
+        TypeLine("No one in life can enjoy peace until they know the meaning of it.");
       }
       else if (intUserNumber == 19)
       {
