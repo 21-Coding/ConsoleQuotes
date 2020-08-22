@@ -14,14 +14,14 @@ namespace myApp
 
       if (intUserNumber == 20)
       {
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.BackgroundColor = ConsoleColor.DarkGray;
+        Console.ForegroundColor = ConsoleColor.Red;
+        Console.BackgroundColor = ConsoleColor.Yellow;
         TypeLine("No one in life can enjoy peace until they know the meaning of it.");
       }
       else if (intUserNumber == 19)
       {
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.BackgroundColor = ConsoleColor.DarkGray;
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.BackgroundColor = ConsoleColor.White;
         TypeLine("Sometimes you have to take two steps backwards in order to take ten forward.");
       }
       else if (intUserNumber == 18)
@@ -33,13 +33,13 @@ namespace myApp
       else if (intUserNumber == 17)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
-        Console.BackgroundColor = ConsoleColor.DarkGray;
+        Console.BackgroundColor = ConsoleColor.Yellow;
         TypeLine("One small misunderstanding can show you how a person really feels about you.");
       }   
       else if (intUserNumber == 16)
       {
-        Console.ForegroundColor = ConsoleColor.Blue;
-        Console.BackgroundColor = ConsoleColor.DarkGray;
+        Console.ForegroundColor = ConsoleColor.Black;
+        Console.BackgroundColor = ConsoleColor.White;
         TypeLine("A speaker of truth has no friends.");
       }
       else if (intUserNumber == 15)
