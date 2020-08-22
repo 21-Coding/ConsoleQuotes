@@ -12,7 +12,14 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 18)
+
+      if (intUserNumber == 19)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.BackgroundColor = ConsoleColor.DarkGray;
+        TypeLine("Sometimes you have to take two steps backwards in order to take ten steps forward.");
+      }
+      else if (intUserNumber == 18)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.BackgroundColor = ConsoleColor.DarkGray;
