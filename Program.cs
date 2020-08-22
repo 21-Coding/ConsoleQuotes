@@ -11,8 +11,14 @@ namespace myApp
       TypeLine("Hello, to see your favorite Nipsey Hussle quotes please type a number from 1 - 16!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
-       
-      if (intUserNumber == 17)
+
+      if (intUserNumber == 18)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        Console.BackgroundColor = ConsoleColor.DarkGray;
+        TypeLine("Instead of trying to build a brick wall, lay a brick every day. Eventually you will have a wall.");
+      } 
+      else if (intUserNumber == 17)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         Console.BackgroundColor = ConsoleColor.DarkGray;
