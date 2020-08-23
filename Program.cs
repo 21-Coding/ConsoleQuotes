@@ -15,8 +15,8 @@ namespace myApp
 
         if (intUserNumber == 24)
       {
-        Console.ForegroundColor = ConsoleColor.Black;
-        Console.BackgroundColor = ConsoleColor.Yellow;
+        Console.ForegroundColor = ConsoleColor.Yellow;
+        Console.BackgroundColor = ConsoleColor.Black;
         TypeLine("Im more focused on giving solutions and inspiration more than anything.");
       }
       else if (intUserNumber == 23)
