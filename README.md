@@ -1,6 +1,6 @@
 # ConsoleQuotes
 <!-- Nip image -->
-![NIP](https://media.giphy.com/media/1k2Tu9c5RlAHaa2sG9/giphy.gif)
+###![NIP](https://media.giphy.com/media/1k2Tu9c5RlAHaa2sG9/giphy.gif)
 <!-- badges -->
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
