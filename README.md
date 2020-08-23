@@ -1,6 +1,6 @@
 # ConsoleQuotes
 <!-- Nip image -->
-![enter image description here](https://lh3.googleusercontent.com/naCLSKI2lwDGyfk9Ei6maNHgPKt2g8dJ_f4q48h-zpRogxaUKk2zEBlaxt5kZLg5CySYXp4PKhUI=s500 "Nip")
+![NIP](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)
 <!-- badges -->
 [![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://github.com/tterb/atomic-design-ui/blob/master/LICENSEs)
 [![GitHub last commit](https://img.shields.io/github/last-commit/google/skia.svg?style=flat)]()
