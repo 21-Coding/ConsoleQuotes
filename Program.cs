@@ -12,8 +12,13 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-
-        if (intUserNumber == 24)
+         if (intUserNumber == 25)
+      {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.BackgroundColor = ConsoleColor.Black;
+        TypeLine("If you don’t know your full-throttle history, the whole story of how you came to where you are, it’s kind of hard to put things together.");
+      }
+      else if (intUserNumber == 24)
       {
         Console.ForegroundColor = ConsoleColor.Yellow;
         Console.BackgroundColor = ConsoleColor.Black;
