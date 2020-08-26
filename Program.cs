@@ -12,12 +12,23 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-
-      if (intUserNumber == 32)
+      if (intUserNumber == 34)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.BackgroundColor = ConsoleColor.DarkYellow;
-        TypeLine("You are responsible for how people remember you--or dont.  Its the one thing that you can control. So dont take it lightly");
+        TypeLine("My brain, it can not process failure! I will not let it process failure. Because if I sit there and have to face myself and tell myself 'you are a failure'...I think thats almost worst than death!");
+      }
+      else if (intUserNumber == 33)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.BackgroundColor = ConsoleColor.DarkYellow;
+        TypeLine("I am extemely willful to win, and I respond to challenges. Its not a challenge to me to win the scoring title, because I know I can.");
+      }
+      else if (intUserNumber == 32)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.BackgroundColor = ConsoleColor.DarkYellow;
+        TypeLine("You are responsible for how people remember you--or dont.  Its the one thing that you can control. So dont take it lightly.");
       }
       else if (intUserNumber == 31)
       {
