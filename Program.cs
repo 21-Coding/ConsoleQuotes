@@ -12,8 +12,13 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-
-      if (intUserNumber == 37)
+      if (intUserNumber == 38)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.BackgroundColor = ConsoleColor.DarkYellow;
+        TypeLine("If you want to be great at something, there is a choice you have to make.  What I mean by that is, there are inherent sacrifices that come along with that.  Family time, hanging out with friends, being a great friend, being a great son, nephew, whatever the case may be.");
+      }
+      else if (intUserNumber == 37)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.BackgroundColor = ConsoleColor.DarkYellow;
