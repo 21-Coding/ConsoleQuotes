@@ -18,7 +18,8 @@ Invoke-WebRequest -Uri https://dot.net/v1/dotnet-install.ps1 -OutFile ```$env:te
 
 # PowerShell Core
 Invoke-WebRequest -Uri https://dot.net/v1/dotnet-install.ps1 -OutFile ```$env:temp/dotnet-install.ps1```
- pwsh: ```$env:temp/dotnet-install.ps1```
+ pwsh: 
+ ```$env:temp/dotnet-install.ps1```
 
 # Shell
 wget https://dot.net/v1/dotnet-install.sh 
