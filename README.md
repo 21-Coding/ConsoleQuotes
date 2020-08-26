@@ -11,12 +11,18 @@
 
 Console application that allows the user to view their favorite quote from the late Nipsey Hussel The Great & Kobe Bean Bryant!
 
+# Windows PowerShell
+Invoke-WebRequest -Uri https://dot.net/v1/dotnet-install.ps1 -OutFile "$env:temp/dotnet-install.ps1"; powershell -executionpolicy bypass "$env:temp/dotnet-install.ps1"
 
+# PowerShell Core
+Invoke-WebRequest -Uri https://dot.net/v1/dotnet-install.ps1 -OutFile "$env:temp/dotnet-install.ps1"; pwsh "$env:temp/dotnet-install.ps1"
 
+# Shell
+wget https://dot.net/v1/dotnet-install.sh && chmod +x ./dotnet-install.sh && sudo ./dotnet-install.sh
+```
 
-
-
-
+# Bash
+./dotnet-install.sh --channel LTS
 
 
 ### Support and contact details
