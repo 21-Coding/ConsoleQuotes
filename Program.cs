@@ -199,7 +199,7 @@ namespace myApp
         TypeLine("It's possible to monetize your art without compromising the integrity of it for commerce.");
       }
       else {
-        TypeLine("Invalid input, try the numbers 1-28.");
+        TypeLine("Invalid input, try the numbers 1-31.");
       }
 
         }
