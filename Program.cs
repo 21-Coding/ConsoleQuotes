@@ -8,27 +8,27 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle quotes please type a number from 1 - 24!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 28!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
 
        if (intUserNumber == 28)
       {
-        Console.ForegroundColor = ConsoleColor.White;
-        Console.BackgroundColor = ConsoleColor.Red;
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.BackgroundColor = ConsoleColor.DarkYellow;
         TypeLine("If you are afraid to fail then your probably going to fail.");
       }
       else if (intUserNumber == 27)
       {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.BackgroundColor = ConsoleColor.White;
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.BackgroundColor = ConsoleColor.DarkYellow;
         TypeLine("I don't want to be the next Michael Jordan, I only want to be Kobe Bryant..");
       }
       else if (intUserNumber == 26)
       {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.BackgroundColor = ConsoleColor.White;
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.BackgroundColor = ConsoleColor.DarkYellow;
         TypeLine("Everything negative - pressure, challenges - is all an opportunity for me to rise.");
       }
        else if (intUserNumber == 25)
@@ -182,7 +182,7 @@ namespace myApp
         TypeLine("It's possible to monetize your art without compromising the integrity of it for commerce.");
       }
       else {
-        TypeLine("Invalid input, try the numbers 1-22.");
+        TypeLine("Invalid input, try the numbers 1-28.");
       }
 
         }
