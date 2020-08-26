@@ -12,7 +12,26 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-         if (intUserNumber == 25)
+
+       if (intUserNumber == 28)
+      {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.BackgroundColor = ConsoleColor.White;
+        TypeLine("");
+      }
+      else if (intUserNumber == 27)
+      {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.BackgroundColor = ConsoleColor.White;
+        TypeLine("I don't want to be the next Michael Jordan, I only want to be Kobe Bryant..");
+      }
+      else if (intUserNumber == 26)
+      {
+        Console.ForegroundColor = ConsoleColor.Green;
+        Console.BackgroundColor = ConsoleColor.White;
+        TypeLine("Everything negative - pressure, challenges - is all an opportunity for me to rise.");
+      }
+       else if (intUserNumber == 25)
       {
         Console.ForegroundColor = ConsoleColor.Green;
         Console.BackgroundColor = ConsoleColor.Black;
