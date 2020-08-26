@@ -19,7 +19,7 @@ Invoke-WebRequest -Uri https://dot.net/v1/dotnet-install.ps1 -OutFile "$env:temp
 
 # Shell
 wget https://dot.net/v1/dotnet-install.sh && chmod +x ./dotnet-install.sh && sudo ./dotnet-install.sh
-```
+
 
 # Bash
 ./dotnet-install.sh --channel LTS
