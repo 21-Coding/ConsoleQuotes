@@ -1,4 +1,4 @@
-# GoatQuotes
+# 🐐GoatQuotes 🐐
 <!-- Nip & Kobe image -->
 ![NIP](https://media.giphy.com/media/1k2Tu9c5RlAHaa2sG9/giphy.gif)
 ![BEAN](https://media.giphy.com/media/eH5e8LXYBzKKI/giphy.gif)
