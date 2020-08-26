@@ -8,7 +8,7 @@
 <!-- break -->
 ### Description
 
-Console application that allows the user to view their favorite quote from the late Nipsey Hussel The Great!
+Console application that allows the user to view their favorite quote from the late Nipsey Hussel The Great & Kobe Bean Bryant!
 
 
 
