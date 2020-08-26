@@ -15,9 +15,9 @@ namespace myApp
 
        if (intUserNumber == 28)
       {
-        Console.ForegroundColor = ConsoleColor.Green;
-        Console.BackgroundColor = ConsoleColor.White;
-        TypeLine("");
+        Console.ForegroundColor = ConsoleColor.White;
+        Console.BackgroundColor = ConsoleColor.Red;
+        TypeLine("If you are afraid to fail then your probably going to fail.");
       }
       else if (intUserNumber == 27)
       {
