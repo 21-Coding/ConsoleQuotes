@@ -12,11 +12,11 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 39)
+      if (intUserNumber == 40)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.BackgroundColor = ConsoleColor.DarkYellow;
-        TypeLine(".");
+        TypeLine("What people see on the court is just one side of me its not me".");
       }
       else if (intUserNumber == 39)
       {
