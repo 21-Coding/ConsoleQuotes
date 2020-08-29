@@ -16,7 +16,7 @@ namespace myApp
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.BackgroundColor = ConsoleColor.DarkYellow;
-        TypeLine("What people see on the court is just one side of me its not me".");
+        TypeLine("What people see on the court is just one side of me its not me");
       }
       else if (intUserNumber == 39)
       {
