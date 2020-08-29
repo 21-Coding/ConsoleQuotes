@@ -16,7 +16,7 @@ namespace myApp
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.BackgroundColor = ConsoleColor.DarkYellow;
-        TypeLine("I cant relate to lazy people, I dont want to relate to lazy people. We dont speak the same language.");
+        TypeLine(".");
       }
       else if (intUserNumber == 39)
       {
