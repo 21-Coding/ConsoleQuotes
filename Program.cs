@@ -8,11 +8,17 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 47!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 48!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 47)
+       if (intUserNumber == 48)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        Console.BackgroundColor = ConsoleColor.DarkYellow;
+        TypeLine("Pain doesnt tell you when you ought to stop, pain is the little voice in your head that tries to hold you back becuase it knows if you continue you will change.");
+      }
+      else if (intUserNumber == 47)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.BackgroundColor = ConsoleColor.DarkYellow;
@@ -295,7 +301,7 @@ namespace myApp
         TypeLine("It's possible to monetize your art without compromising the integrity of it for commerce.");
       }
       else {
-        TypeLine("Invalid input, try the numbers 1-47.");
+        TypeLine("Invalid input, try the numbers 1-48.");
       }
 
         }
