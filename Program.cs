@@ -16,9 +16,10 @@ namespace myApp
       if (intUserNumber == 51)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        TypeLine("When I was young, my mindset was image, image, image. I took that approach with the media. As I became more experienced I realized: No matter what, people are going to like you or not like you. So be authentic, and let them like you or not for who you actually are. At that point, I started keeping all of my answers blunt and straightforward. I would mix in some humor and sarcasm, too. I think fans and reporters came to appreciate that, came to appreciate the real me.");
         
       }
-      if (intUserNumber == 50)
+      else if (intUserNumber == 50)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         Console.BackgroundColor = ConsoleColor.DarkYellow;
