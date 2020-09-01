@@ -13,6 +13,11 @@ namespace myApp
       int intUserNumber = int.Parse(stringUserNumber);
 
       
+      if (intUserNumber == 52)
+      {
+        Console.ForegroundColor == ConsoleColor.DarkMagenta;
+        TypeLine("");
+      }
       if (intUserNumber == 51)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
