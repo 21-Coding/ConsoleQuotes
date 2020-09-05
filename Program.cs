@@ -18,7 +18,7 @@ namespace myApp
         Console.ForegroundColor == ConsoleColor.DarkMagenta;
         TypeLine("Are you willing to push the right buttons even if it means being perceived as the villain?...I'd rather be perceiveded as a winner than a good teammate. I wish they both went hand in hand all the time but that's just not reality. I have nothing in common with lazy people who blame others for their lack of success.");
       }
-      if (intUserNumber == 51)
+      else if (intUserNumber == 51)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("When I was young, my mindset was image, image, image. I took that approach with the media. As I became more experienced I realized: No matter what, people are going to like you or not like you. So be authentic, and let them like you or not for who you actually are. At that point, I started keeping all of my answers blunt and straightforward. I would mix in some humor and sarcasm, too. I think fans and reporters came to appreciate that, came to appreciate the real me.");
