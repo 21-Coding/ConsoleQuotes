@@ -12,8 +12,12 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      
       if (intUserNumber == 52)
+      {
+        Console.ForegroundColor == ConsoleColor.DarkMagenta;
+        TypeLine("I dont give a [explitive] what you say. If I go out there and miss game winners, and people say, 'Kobe choked, or Kobe is seven for whatever in pressure situations.' Well, [explitive] you.");
+      }
+      else if (intUserNumber == 52)
       {
         Console.ForegroundColor == ConsoleColor.DarkMagenta;
         TypeLine("Are you willing to push the right buttons even if it means being perceived as the villain?...I'd rather be perceiveded as a winner than a good teammate. I wish they both went hand in hand all the time but that's just not reality. I have nothing in common with lazy people who blame others for their lack of success.");
