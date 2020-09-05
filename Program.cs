@@ -12,6 +12,12 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
+
+      if (intUserNumber == 55)
+      {
+        Console.ForegroundColor == ConsoleColor.DarkMagenta;
+        TypeLine("It's and intentional pass to myself, that way people cant say all I do is shoot.");
+      }
       if (intUserNumber == 54)
       {
         Console.ForegroundColor == ConsoleColor.DarkMagenta;
