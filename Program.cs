@@ -18,7 +18,7 @@ namespace myApp
         Console.ForegroundColor == ConsoleColor.DarkMagenta;
         TypeLine("It's and intentional pass to myself, that way people cant say all I do is shoot.");
       }
-      if (intUserNumber == 54)
+      else if (intUserNumber == 54)
       {
         Console.ForegroundColor == ConsoleColor.DarkMagenta;
         TypeLine("Take it all in. Sit back and watch and listen and hear all the hate that's being thrown at us and remember every person that's kicking you when you're down, because next year it aint gonna be this way. Appreciate it now.  Let it sit in now, because revenge is sweet and it's quick.");
