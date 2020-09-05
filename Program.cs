@@ -12,7 +12,7 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 52)
+      if (intUserNumber == 53)
       {
         Console.ForegroundColor == ConsoleColor.DarkMagenta;
         TypeLine("I dont give a [explitive] what you say. If I go out there and miss game winners, and people say, 'Kobe choked, or Kobe is seven for whatever in pressure situations.' Well, [explitive] you.");
