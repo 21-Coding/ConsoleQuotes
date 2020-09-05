@@ -8,11 +8,16 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 56!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 57!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 56)
+      if (intUserNumber == 57)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        TypeLine("Im chasing perfection.");
+      }
+      else if (intUserNumber == 56)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("I've shot too much since I was 8 years old. But 'too much' is a matter of perspective. Some people thought Mozart had too many notes in his compositions. Let me put it this way: I entertain people who say I shoot too much. I find it very interesting. Going back to Mozart, he responded to critics by saying there were neither too many notes or too few. There were as many as necessary.");
@@ -344,7 +349,7 @@ namespace myApp
         TypeLine("It's possible to monetize your art without compromising the integrity of it for commerce.");
       }
       else {
-        TypeLine("Invalid input, try the numbers 1-56.");
+        TypeLine("Invalid input, try the numbers 1-57.");
       }
 
         }
