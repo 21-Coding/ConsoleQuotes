@@ -8,29 +8,33 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 55!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 56!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-
-      if (intUserNumber == 55)
+      if (intUserNumber == 56)
       {
-        Console.ForegroundColor == ConsoleColor.DarkMagenta;
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        TypeLine("I've shot too much since I was 8 years old. But 'too much' is a matter of perspective. Some people thought Mozart had too many notes in his compositions. Let me put it this way: I entertain people who say I shoot too much. I find it very interesting. Going back to Mozart, he responded to critics by saying there were neither too many notes or too few. There were as many as necessary.");
+      }
+      else if (intUserNumber == 55)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("It's and intentional pass to myself, that way people cant say all I do is shoot.");
       }
       else if (intUserNumber == 54)
       {
-        Console.ForegroundColor == ConsoleColor.DarkMagenta;
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("Take it all in. Sit back and watch and listen and hear all the hate that's being thrown at us and remember every person that's kicking you when you're down, because next year it aint gonna be this way. Appreciate it now.  Let it sit in now, because revenge is sweet and it's quick.");
       }
       else if (intUserNumber == 53)
       {
-        Console.ForegroundColor == ConsoleColor.DarkMagenta;
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("I dont give a [explitive] what you say. If I go out there and miss game winners, and people say, 'Kobe choked, or Kobe is seven for whatever in pressure situations.' Well, [explitive] you.");
       }
       else if (intUserNumber == 52)
       {
-        Console.ForegroundColor == ConsoleColor.DarkMagenta;
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("Are you willing to push the right buttons even if it means being perceived as the villain?...I'd rather be perceiveded as a winner than a good teammate. I wish they both went hand in hand all the time but that's just not reality. I have nothing in common with lazy people who blame others for their lack of success.");
       }
       else if (intUserNumber == 51)
@@ -340,7 +344,7 @@ namespace myApp
         TypeLine("It's possible to monetize your art without compromising the integrity of it for commerce.");
       }
       else {
-        TypeLine("Invalid input, try the numbers 1-55.");
+        TypeLine("Invalid input, try the numbers 1-56.");
       }
 
         }
