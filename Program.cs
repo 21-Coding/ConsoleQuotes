@@ -8,13 +8,21 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 63!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 64!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-
-
-      if (intUserNumber == 62)
+      if (intUserNumber == 64)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        TypeLine(".");
+      }
+      else f (intUserNumber == 63)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        TypeLine("Be sad. Be mad. Be frustrated. Scream. Cry. Sulk. When you wake up you will think it was just a nightmare only to realize it’s all too real. You will be angry and wish for the day back, the game back, THAT play back. But reality gives nothing back and nor should you.");
+      }
+      else if (intUserNumber == 62)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("I had to organize things. So I created the ‘Black Mamba’. So Kobe has to deal with these issues, all the personal challenges. The Black Mamba steps on the court and does what he does. I’m destroying everybody that steps on the court.");
@@ -376,7 +384,7 @@ namespace myApp
         TypeLine("It's possible to monetize your art without compromising the integrity of it for commerce.");
       }
       else {
-        TypeLine("Invalid input, try the numbers 1-63.");
+        TypeLine("Invalid input, try the numbers 1-64.");
       }
 
         }
