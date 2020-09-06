@@ -15,7 +15,7 @@ namespace myApp
       if (intUserNumber == 64)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
-        TypeLine(".");
+        TypeLine("We psyche ourselves up too much. Like if you try to talk yourself into, ‘Oh, this is a big moment, this is a big shot,’ you’re putting a lot of pressure on yourself. You shot that shot hundreds and thousands of times. Just shoot another one.");
       }
       else f (intUserNumber == 63)
       {
