@@ -12,6 +12,12 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
+
+      if (intUserNumber == 61)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        TypeLine("I would go 0-for-30 [from the floor] before I would go 0-for-9. 0-for-9 means you beat yourself, you psyched yourself out the game...the only reason is beacause you have just now lost confidence in yourself.");
+      }
       if (intUserNumber == 60)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
