@@ -17,7 +17,7 @@ namespace myApp
       if (intUserNumber == 62)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
-        TypeLine(".");
+        TypeLine("I had to organize things. So I created the ‘Black Mamba’. So Kobe has to deal with these issues, all the personal challenges. The Black Mamba steps on the court and does what he does. I’m destroying everybody that steps on the court.");
       }
       else if (intUserNumber == 61)
       {
