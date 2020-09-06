@@ -13,12 +13,18 @@ namespace myApp
       int intUserNumber = int.Parse(stringUserNumber);
 
 
-      if (intUserNumber == 61)
+
+      if (intUserNumber == 62)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine(".");
       }
-      if (intUserNumber == 60)
+      else if (intUserNumber == 61)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        TypeLine("One thing you gotta know about me is I have absolutely no filter. I have no problem saying what the hell I think of someone..");
+      }
+      else if (intUserNumber == 60)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("I would go 0-for-30 [from the floor] before I would go 0-for-9. 0-for-9 means you beat yourself, you psyched yourself out the game...the only reason is beacause you have just now lost confidence in yourself.");
