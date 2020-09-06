@@ -12,7 +12,13 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 64)
+
+      if (intUserNumber == 65)
+      {
+        Console.ForegroundColor = ConsoleColor.DarkMagenta;
+        TypeLine("Those times when you get up early and you work hard, those times when you stay up late and you work hard, those times when you don’t feel like working, you’re too tired, you don’t want to push yourself, but you do it anyway. That is actually the dream. That’s the dream. It’s not the destination, it’s the journey. And if you guys can understand that, then what you’ll see happen is you won’t accomplish your dreams, your dreams won’t come true; something greater will.");
+      }
+      else if (intUserNumber == 64)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("We psyche ourselves up too much. Like if you try to talk yourself into, ‘Oh, this is a big moment, this is a big shot,’ you’re putting a lot of pressure on yourself. You shot that shot hundreds and thousands of times. Just shoot another one.");
