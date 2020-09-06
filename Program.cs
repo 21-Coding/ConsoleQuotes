@@ -17,7 +17,7 @@ namespace myApp
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("We psyche ourselves up too much. Like if you try to talk yourself into, ‘Oh, this is a big moment, this is a big shot,’ you’re putting a lot of pressure on yourself. You shot that shot hundreds and thousands of times. Just shoot another one.");
       }
-      else f (intUserNumber == 63)
+      else if (intUserNumber == 63)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
         TypeLine("Be sad. Be mad. Be frustrated. Scream. Cry. Sulk. When you wake up you will think it was just a nightmare only to realize it’s all too real. You will be angry and wish for the day back, the game back, THAT play back. But reality gives nothing back and nor should you.");
