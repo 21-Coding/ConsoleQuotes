@@ -13,7 +13,12 @@ namespace myApp
       int intUserNumber = int.Parse(stringUserNumber);
 
 
-      if (intUserNumber == 68)
+      if (intUserNumber == 69)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        TypeLine("I know that God got me, so I practice patience. Most of the time I look inside and find the answers waitin'.");
+      }
+      else if (intUserNumber == 68)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("First-class flight, lookin' at the clouds hopin' that my ppl up in heaven looking down. Hopin' what I'm doing truly make my mama proud 'cause for a very long time, I was the reason for her frowns..");
