@@ -8,12 +8,17 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 67!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 68!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
 
-      if (intUserNumber == 67)
+      if (intUserNumber == 68)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        TypeLine("First-class flight, lookin' at the clouds hopin' that my ppl up in heaven looking down. Hopin' what I'm doing truly make my mama proud 'cause for a very long time, I was the reason for her frowns..");
+      }
+     else if (intUserNumber == 67)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("Look, marathon life it's all about the pace. Lot of ppl running sprints, but they never win the race.");
@@ -401,7 +406,7 @@ namespace myApp
         TypeLine("It's possible to monetize your art without compromising the integrity of it for commerce.");
       }
       else {
-        TypeLine("Invalid input, try the numbers 1-67.");
+        TypeLine("Invalid input, try the numbers 1-68.");
       }
 
         }
