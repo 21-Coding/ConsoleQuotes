@@ -13,6 +13,11 @@ namespace myApp
       int intUserNumber = int.Parse(stringUserNumber);
 
 
+      if (intUserNumber == 70)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        TypeLine("And it can be as simple as it seems, if you never doubt yourself and learn from everything you see, no wishing on a star can turn your life into a dream. You could walk on water, just don't look down at your feet..");
+      }
       if (intUserNumber == 69)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
