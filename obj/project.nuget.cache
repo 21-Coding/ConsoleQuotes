@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "f1XG0voB+TeTKE6gJnenb+1xxdBoAWkag67T26v7+3Y5q13npYZX8f9J6Ksi9Bfpj/bAYSjjOnFCwM8nAiIYRw==",
+  "dgSpecHash": "TPdA5tAVHNuzd8iinr1rqZEGYuDM4tblBb2Dxb2VaCxhOqHIJEFCiS4HoBXOvXfpalQMgZN/rG6xYvqA9K3V7A==",
   "success": true,
-  "projectFilePath": "/Users/dom/Desktop/ConsoleQuotes/myApp.csproj",
+  "projectFilePath": "/Users/dom/Desktop/GoatQuotes/myApp.csproj",
   "expectedPackageFiles": [
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.app/2.2.0/microsoft.netcore.app.2.2.0.nupkg.sha512",
     "/usr/local/share/dotnet/sdk/NuGetFallbackFolder/microsoft.netcore.dotnetapphost/2.2.0/microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",

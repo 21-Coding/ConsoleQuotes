@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/dom/Desktop/ConsoleQuotes/myApp.csproj": {}
+    "/Users/dom/Desktop/GoatQuotes/myApp.csproj": {}
   },
   "projects": {
-    "/Users/dom/Desktop/ConsoleQuotes/myApp.csproj": {
+    "/Users/dom/Desktop/GoatQuotes/myApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/dom/Desktop/ConsoleQuotes/myApp.csproj",
+        "projectUniqueName": "/Users/dom/Desktop/GoatQuotes/myApp.csproj",
         "projectName": "myApp",
-        "projectPath": "/Users/dom/Desktop/ConsoleQuotes/myApp.csproj",
+        "projectPath": "/Users/dom/Desktop/GoatQuotes/myApp.csproj",
         "packagesPath": "/Users/dom/.nuget/packages/",
-        "outputPath": "/Users/dom/Desktop/ConsoleQuotes/obj/",
+        "outputPath": "/Users/dom/Desktop/GoatQuotes/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
