@@ -8,11 +8,16 @@ namespace myApp
      static void Main(string[] args)
     {
 
-      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 68!");
+      TypeLine("Hello, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 71!");
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
 
+      if (intUserNumber == 71)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        TypeLine(".");
+      }
       if (intUserNumber == 70)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
@@ -416,7 +421,7 @@ namespace myApp
         TypeLine("It's possible to monetize your art without compromising the integrity of it for commerce.");
       }
       else {
-        TypeLine("Invalid input, try the numbers 1-68.");
+        TypeLine("Invalid input, try the numbers 1-71.");
       }
 
         }
