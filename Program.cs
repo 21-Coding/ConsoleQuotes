@@ -15,6 +15,11 @@ namespace myApp
       if (intUserNumber == 72)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
+        TypeLine("Used to be stay safe now it stay dangerous.");
+      }
+      else if (intUserNumber == 72)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("Thats why I called my thing the marathon, im not gonna lie and portray this ultimate poise like I been had it all figured out. I just didnt quit. Thats the only distinguishing quality from me and who ever else is going through this, went through this, or is gonna go through this is that I aint quit. I went through every emotion with tryna pursue what im doing.");
       }
       else if (intUserNumber == 71)
