@@ -12,7 +12,7 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 72)
+      if (intUserNumber == 73)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("Used to be stay safe now it stay dangerous.");
