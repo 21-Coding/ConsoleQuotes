@@ -16,7 +16,7 @@ namespace myApp
       if (intUserNumber == 71)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
-        TypeLine(".");
+        TypeLine("Stacked every chip on myself, time to collect. All money in, just imagine what I gross back.");
       }
       if (intUserNumber == 70)
       {
