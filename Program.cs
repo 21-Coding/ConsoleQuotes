@@ -12,7 +12,13 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 73)
+
+      if (intUserNumber == 74)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        TypeLine("Listen, look, before rap my last name was my lifestyle and when I visualize success it look like right now what was once gray skies is now white clouds and I did it with the ones that ya'll said was not the right crowd.");
+      }
+      else if (intUserNumber == 73)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("Used to be stay safe now it stay dangerous.");
