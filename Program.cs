@@ -13,7 +13,12 @@ namespace myApp
       int intUserNumber = int.Parse(stringUserNumber);
 
 
-      if (intUserNumber == 74)
+      if (intUserNumber == 75)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        TypeLine("Victory to me is when you spend your time right. Victory to me is when you get your grind right. Victory to me is when you get your moms right.");
+      }
+      else if (intUserNumber == 74)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("Listen, look, before rap my last name was my lifestyle and when I visualize success it look like right now what was once gray skies is now white clouds and I did it with the ones that ya'll said was not the right crowd.");
