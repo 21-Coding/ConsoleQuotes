@@ -12,7 +12,12 @@ namespace myApp
       string stringUserNumber = Console.ReadLine();
       int intUserNumber = int.Parse(stringUserNumber);
 
-      if (intUserNumber == 76)
+      if (intUserNumber == 77)
+      {
+        Console.ForegroundColor = ConsoleColor.Blue;
+        TypeLine("We represent a hustler. I think we represent inspiration. I think we represent, you know, staying down. I think we represent building yourself up from the bootstraps. I think we represent one of the main core principles of hip-hop. And my brand, being Nip Hussle, being Marathon, you know, Crenshaw, they can inspire the young people that’s not connected to the resources but they see a Nip Hussle was able to find a lane and thrive to a degree and build.");
+      }
+      else if (intUserNumber == 76)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("I kinda came into my manhood, or what I thought was my adulthood, early. I had to show up, and I had to make sure I had gas money, food money, rent money, clothes money - everything was on me, startin' at that age, so that's what led me to start hustlin', that's what led me to start to try to find ways to fend for myself. And once I did that, I was full-time, bein' in the street, and, bein' in the street, it's cold. It's the way the streets operate, and you have to adapt to that.");
