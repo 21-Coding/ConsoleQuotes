@@ -15,7 +15,7 @@ namespace myApp
       if (intUserNumber == 76)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
-        TypeLine(".");
+        TypeLine("I kinda came into my manhood, or what I thought was my adulthood, early. I had to show up, and I had to make sure I had gas money, food money, rent money, clothes money - everything was on me, startin' at that age, so that's what led me to start hustlin', that's what led me to start to try to find ways to fend for myself. And once I did that, I was full-time, bein' in the street, and, bein' in the street, it's cold. It's the way the streets operate, and you have to adapt to that.");
       }
       else if (intUserNumber == 75)
       {
