@@ -47,12 +47,12 @@ namespace myApp
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("Stacked every chip on myself, time to collect. All money in, just imagine what I gross back.");
       }
-      if (intUserNumber == 70)
+      else if (intUserNumber == 70)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("And it can be as simple as it seems, if you never doubt yourself and learn from everything you see, no wishing on a star can turn your life into a dream. You could walk on water, just don't look down at your feet..");
       }
-      if (intUserNumber == 69)
+      else if (intUserNumber == 69)
       {
         Console.ForegroundColor = ConsoleColor.Blue;
         TypeLine("I know that God got me, so I practice patience. Most of the time I look inside and find the answers waitin'.");
@@ -126,7 +126,7 @@ namespace myApp
       else if (intUserNumber == 55)
       {
         Console.ForegroundColor = ConsoleColor.DarkMagenta;
-        TypeLine("It's and intentional pass to myself, that way people cant say all I do is shoot.");
+        TypeLine("It's an intentional pass to myself, that way people cant say all I do is shoot.");
       }
       else if (intUserNumber == 54)
       {
