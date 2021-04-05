@@ -11,7 +11,12 @@ namespace myApp
             TypeLine("Whats up Dom?, to see your favorite Nipsey Hussle & Kobe Bryant quotes please type a number from 1 - 78!");
             string stringUserNumber = Console.ReadLine();
             int intUserNumber = int.Parse(stringUserNumber);
-            if (intUserNumber == 78)
+            if (intUserNumber == 79)
+            {
+                Console.ForegroundColor = ConsoleColor.Yellow;
+                TypeLine("I have self-doubt. I have insecurity. I have fear of failure. I have nights when I show up at the arena and I'm like, 'My back hurts, my feet hurt, my knees hurt. I don't have it. I just want to chill.' We all have self-doubt. You don't deny it, but you also don't capitulate to it. You embrace it.");
+            }
+            else if (intUserNumber == 78)
             {
                 Console.ForegroundColor = ConsoleColor.Blue;
                 TypeLine("Pain doesn't tell you when you ought to stop. Pain is the little voice in your head that tries to hold you back because it knows if you continue you will change. Don't let it stop you from being who you can be. Exhaustion tells you when you ought to stop. You only reach your limit when you can go no further.");
